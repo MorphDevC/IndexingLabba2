@@ -1,0 +1,16 @@
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\bin\Debug\net5.0\IndexingLabba2.exe
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\bin\Debug\net5.0\IndexingLabba2.deps.json
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\bin\Debug\net5.0\IndexingLabba2.runtimeconfig.json
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\bin\Debug\net5.0\IndexingLabba2.runtimeconfig.dev.json
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\bin\Debug\net5.0\IndexingLabba2.dll
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\bin\Debug\net5.0\ref\IndexingLabba2.dll
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\bin\Debug\net5.0\IndexingLabba2.pdb
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\IndexingLabba2.csprojAssemblyReference.cache
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\IndexingLabba2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\IndexingLabba2.AssemblyInfoInputs.cache
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\IndexingLabba2.AssemblyInfo.cs
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\IndexingLabba2.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\IndexingLabba2.dll
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\ref\IndexingLabba2.dll
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\IndexingLabba2.pdb
+C:\Users\Администратор\RiderProjects\IndexingLabba2\IndexingLabba2\obj\Debug\net5.0\IndexingLabba2.genruntimeconfig.cache
