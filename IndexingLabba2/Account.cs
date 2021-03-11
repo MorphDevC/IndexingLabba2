@@ -25,7 +25,6 @@ namespace IndexingLabba2
     
     public class Account
     {
-        private List<Account> _accounts = new List<Account>();
         private Person _personNames = new Person();
         private string _accNumber; // List
         private float _accMoney;
@@ -178,19 +177,20 @@ namespace IndexingLabba2
         //     get => 
         // }
         //
-        public static List<Account> operator +(Account one, Account two)
+        public static Account operator +(Account one, Account two)
         {
-            List<Account> listAcc = new List<Account>();
-            listAcc.Add(one);
-            listAcc.Add(two);
+            Account newAcc = new Account();
+            newAcc.PersonNames = one.PersonNames;
+            newAcc.AccNumber = one.AccNumber.RandNumber() + two.AccNumber.RandNumber();
+            newAcc.AccMoney = one.AccMoney + two.AccMoney;
+            newAcc.AccCreated = DateTime.Today;
+            newAcc.AccFired = newAcc.AccCreated.AddYears(4);
+            newAcc.AccClosed = newAcc.AccFired;
+            newAcc.AccType = one.AccType;
+            newAcc._id = (_idCounts - 1);
+            
             _idCounts--;
-            return listAcc;
-        }
-        public static List<Account> operator +(List<Account> listAcc, Account two)
-        {
-            listAcc.Add(two);
-            _idCounts--;
-            return listAcc;
+            return newAcc;
         }
     }
 
@@ -247,6 +247,21 @@ namespace IndexingLabba2
             {
                 throw new Exception("Value too short to substitute all substitute characters in the mask", e);
             }
+        }
+
+        public static string RandNumber(this string value)
+        {
+            Random rnd = new Random();
+            string retString = default;
+            string[] celss = value.Trim().Split(new char[] {' '});
+            for (int i = 0; i < 2; i++)
+            {
+                int someInt = Convert.ToInt32(celss[i]);
+                someInt = rnd.Next(1000, someInt);
+                retString += (Convert.ToString(someInt) + " ");
+            }
+
+            return retString;
         }
     }
 

@@ -30,7 +30,7 @@ namespace IndexingLabba2
             Console.WriteLine(account.GetInfoAcc()+"\n\n");
             Console.WriteLine(account2.GetInfoAcc()+"\n\n");
             var k = account + account2;
-            Console.WriteLine(k[0].GetInfoAcc()+"\n");
+            Console.WriteLine(k.GetInfoAcc()+"\n");
             
             Console.WriteLine(account.TopUpBalance(5000));
             
